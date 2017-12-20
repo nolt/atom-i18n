@@ -1,10 +1,11 @@
 {
   "name": "atom-i18n",
   "main": "./lib/main",
-  "version": "0.9.2",
+  "version": "0.13.0",
   "scripts": {
-    "test": "npm run validation",
-    "validation": "eslint def lib spec && coffeelint def lib spec && mocha spec/validation.js"
+    "test": "npm run lint && npm run validation",
+    "lint": "eslint def lib spec && coffeelint def lib spec",
+    "validation": "mocha spec/validation.js"
   },
   "description": "Localize Atom for your locale. One i18n package for any language. Community-driven translation.",
   "keywords": [
@@ -26,11 +27,12 @@
     "cson": "^4.0.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
+    "axios": "^0.16.2",
+    "chai": "^4.1.1",
     "coffeelint": "^1.16.0",
-    "eslint": "^3.15.0",
-    "mocha": "^3.2.0",
-    "yargs": "^7.0.2"
+    "eslint": "^4.5.0",
+    "mocha": "^3.5.0",
+    "yargs": "^8.0.2"
   },
   "configSchema": {
     "locale": {
@@ -60,6 +62,14 @@
           "description": "हिन्दी (hi)"
         },
         {
+          "value": "hu",
+          "description": "Magyar (hu)"
+        },
+        {
+          "value": "it",
+          "description": "Italiano (it)"
+        },
+        {
           "value": "ja",
           "description": "日本語 (ja)"
         },
@@ -72,12 +82,20 @@
           "description": "Nederlands (nl)"
         },
         {
+          "value": "pl",
+          "description": "Polski (pl)"
+        },
+        {
           "value": "pt-br",
           "description": "Português(Brazil) (pt-br)"
         },
         {
           "value": "ru",
           "description": "Ру́сский (ru)"
+        },
+        {
+          "value": "th",
+          "description": "ภาษาไทย (th)"
         },
         {
           "value": "zh-cn",

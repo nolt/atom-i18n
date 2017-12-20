@@ -1,10 +1,39 @@
+## 0.13.0 - Hungarian support
+* Hungarian support (100%) #116
+* Japanese support update (95%) #112
+
+
+## 0.12.1 - Refine validation
+* Validate settings content with Atom v1.22 source config #102 #107
+* German i18n update #109
+* Update package dependencies, add greenkeeper bot #103 #104
+
+
+## 0.12.0 - Thai support
+* Thai support (80%) #99
+* Italian support update (50%) #96
+* German i18n refine #100
+
+
+## 0.11.0 - Italian support
+* Italian support (30%) #94
+* update eslint config, fix linter error
+
+
+## 0.10.0 - Polish support
+* Polish support (80%) #92
+* Fix cson key inconsistent #89
+* refactoring validation
+
+
 ## 0.9.2 - Fix Banner in README
 * fix banner link in README
 
+
 ## 0.9.1 - French I18n Fix
-* French grammar fix
-* Don't enforce hot key hint consistency in menu
-* deprecate atom v1.15
+* French grammar fix #85
+* Don't enforce hot key hint consistency in menu #87
+* deprecate atom v1.15 #84
 * Refactoring validation code
 
 
