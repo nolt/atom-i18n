@@ -127,6 +127,14 @@ Settings:
         desc: "Encodage de caractères par défaut lors de la lecture et l'écriture des fichiers."
       }
       {
+        _id: 'core.fileSystemWatcher'
+        title: "File System Watcher"
+        desc: "Choose the underlying implementation used to watch for filesystem changes. Emulating changes will miss any events caused by applications other than Atom, but may help prevent crashes or freezes."
+        select:
+          native: "Native operating system APIs"
+          atom: "Emulated with Atom events"
+      }
+      {
         _id: 'core.followSymlinks'
         title: "Suivre les liens symboliques"
         desc: "Suivre les liens symboliques lors de la recherche de fichiers et lors de l'ouverture de fichiers avec fuzzy-finder."
@@ -174,9 +182,24 @@ Settings:
           undecided: "Me rappeler au prochaine démarrage"
       }
       {
+        _id: 'core.titleBar'
+        title: "Title Bar"
+        desc: "Experimental: A <code>custom</code> title bar adapts to theme colors. Choosing <code>custom-inset</code> adds a bit more padding. The title bar can also be completely <code>hidden</code>.<br>Note: Switching to a custom or hidden title bar will compromise some functionality.<br>This setting will require a relaunch of Atom to take effect."
+        select:
+          native: "native"
+          custom: "custom"
+          "custom-inset": "custom-inset"
+          hidden: "hidden"
+      }
+      {
         _id: 'core.useProxySettingsWhenCallingApm'
         title: "Utiliser les paramètres proxy lors de l'appel à APM"
         desc: "Utiliser les paramètres proxy détectés lors de l'appel à la commande <code>apm</code>."
+      }
+      {
+        _id: 'core.versionPinnedPackages'
+        title: "Version Pinned Packages"
+        desc: "List of names of installed packages which are not automatically updated."
       }
       {
         _id: 'core.useCustomTitleBar'
@@ -253,6 +276,11 @@ Settings:
         _id: 'editor.lineHeight'
         title: "Hauteur de ligne"
         desc: "Hauteur des lignes de l'éditeur sous forme du coefficient multiplicateur de la taille de la police."
+      }
+      {
+        _id: 'editor.maxScreenLineLength'
+        title: "Max Screen Line Length"
+        desc: "Defines the maximum width of the editor window before soft wrapping is enforced, in number of characters."
       }
       {
         _id: 'editor.nonWordCharacters'
