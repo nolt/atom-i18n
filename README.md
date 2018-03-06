@@ -4,9 +4,12 @@
 [![contributor-count][contributor-count]][contributors]
 [![contribute-welcome-badge][contribute-welcome-badge]][CONTRIBUTING.md]
 [![issues-count][issues-count]][issues]
+
 [![Build Status][travis-status]][travis-project]
-[![dependencies Status][david-status]][david-project]
-[![Greenkeeper badge][greenkeeper-badge]][greenkeeper]
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
+[![Dependency Status][david-status]][david-project]
+[![DevDependency Status][david-dev-status]][david-dev-project]
+[![PeerDependency Status][david-peer-status]][david-peer-project]
 [![license][license-badge]][license]
 
 Localize [Atom][atom] :atom: for your locale.
@@ -33,7 +36,7 @@ Community-driven translation. :family:
 | French | `fr` | :white_check_mark: 100% |
 | Hindi | `hi` | :exclamation: [I can translate][hi-issue-filter] |
 | Hungarian | `hu` | :white_check_mark: 100% |
-| Italian| `it` | :warning: 50% [I can translate][it-issue-filter] |
+| Italian| `it` | :white_check_mark: 100% |
 | Japanese | `ja` | :white_check_mark: 100% |
 | Korean | `ko` | :white_check_mark: 100% |
 | Dutch | `nl` | :warning: 80% [I can translate][nl-issue-filter] |
@@ -71,7 +74,7 @@ Community-driven translation. :family:
   - Polish: [Jeplaa](//github.com/Jeplaa)
   - French: [chezyann](//github.com/chezyann) [Vivalzar](//github.com/Vivalzar)
   - Polish: [nolt](//github.com/nolt)
-  - Italian: [francematt](//github.com/francematt)
+  - Italian: [francematt](//github.com/francematt) [Lorenzo Ancora](//github.com/LorenzoAncora)
   - Thai: [sitdh](//github.com/sitdh)
   - Japanese: [shingo-uzuki](//github.com/shingo-uzuki)
   - Hungarian: [dominicus-75](//github.com/dominicus-75)
@@ -112,10 +115,14 @@ Community-driven translation. :family:
 [issues]: https://github.com/liuderchi/atom-i18n/issues "issues"
 [travis-status]: https://travis-ci.org/liuderchi/atom-i18n.svg?branch=master "travis-status"
 [travis-project]: https://travis-ci.org/liuderchi/atom-i18n "travis-project"
+[renovate-badge]: https://img.shields.io/badge/renovate-enabled-brightgreen.svg "renovate-badge"
+[renovate-link]: https://renovateapp.com
 [david-status]: https://david-dm.org/liuderchi/atom-i18n/status.svg "david-status"
 [david-project]: https://david-dm.org/liuderchi/atom-i18n "david-project"
-[greenkeeper-badge]: https://badges.greenkeeper.io/liuderchi/atom-i18n.svg "greenkeeper"
-[greenkeeper]: https://greenkeeper.io/ "greenkeeper"
+[david-dev-status]: https://david-dm.org/liuderchi/atom-i18n/dev-status.svg "david-dev-status"
+[david-dev-project]: https://david-dm.org/liuderchi/atom-i18n#info=devDependencies "david-dev-project"
+[david-peer-status]: https://david-dm.org/liuderchi/atom-i18n/peer-status.svg "david-peer-status"
+[david-peer-project]: https://david-dm.org/liuderchi/atom-i18n#info=peerDependencies "david-peer-project"
 [license-badge]: https://img.shields.io/github/license/liuderchi/atom-i18n.svg "license-badge"
 [license]: http://liuderchi.mit-license.org/ "license"
 
